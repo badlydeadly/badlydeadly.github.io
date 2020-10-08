@@ -1,8 +1,91 @@
-#image {
-    text-align: center;
-    margin-top: 150px;
+
+#logo {
+   display: flex;
+   justify-content: center;
+   margin-top: 125px;
 }
 
-.buttons {
-    text-align: center;
+
+nav {
+   text-align: right; 
+   margin-top: 15px;
+   margin-right: 10px;  
+        
 }
+nav > a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(68, 73, 78);
+    font-family: sans-serif;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+
+#searchbar {
+    text-align: center;
+    margin-top: 25px;
+    
+}
+
+#search {
+    height: 20px;
+    width: 480px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(201, 197, 197);
+    padding: 10px;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    margin-right: 10px;
+    width: 135px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: grey;
+}
+
+button:hover {
+    border: 1px solid rgb(185, 183, 183);
+    color: rgb(59, 59, 59);
+    cursor: pointer;
+}
+
+
+#g_home {
+    background-color: #f1f1f1;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+}
+
+#g_home > a > img {
+    width: 92px;
+    height: 33px;
+    margin: 15px;
+}
+
+#advs {
+    color: #d93025;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 25px 35px;
+    vertical-align: baseline;
+}
+
+#line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+body {
+    margin: 0%;          
+}
+
+
