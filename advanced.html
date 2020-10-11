@@ -5,20 +5,63 @@
     <head>
         <title>Advanced search</title>
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
         <div id="g_home">
             <a href="index.html"><img src="logo.png" alt="Google"></a>
+            <nav><a href="index.html">Google Search</a></nav>
         </div>
+
         <div id="advs">
-            <label>Advanced Serach</label>
+            <span>Advanced Serach</span>
+        </div>
+
+        <div id="line"></div>
+        <div id="find_pages"><span>Find pages with...</span>
+            <div id="todo">
+                <span>To do this in the search box.</span>
+            </div>
+        </div>
+
+        <div class="pr">
+            <div>Type the important words: tri-colour rat terrier</div>           
+            <div>Put exact words in quotes: "rat terrier"</div>
+            <div>Type OR between all the words you want: miniature OR standard</div>
+            <div>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+        </div>
+        
+        <div>
+            <form action="https://google.com/search" id="adv"></form>
+            <div class="label">
+                <label for="as_eq">all these words:</label>
+                <input type="text" name="as_q" form="adv">    
+            </div>
+            <div class="label">
+                <label for="as_epq">this exact word or phrase:</label>
+                <input type="text" name="as_epq" form="adv">
+            </div>
+    
+            <div class="label">
+                <label for="as_oq">any of these words:</label>
+                <input type="text" name="as_oq" form="adv">
+            </div>
+    
+            <div class="label">
+                <label for="as_eq">none of these words:</label>
+                <input type="text" name="as_eq" form="adv">
+            </div>
+            <div id="advbutton"><button form="adv">Advanced Search</button></div>
 
         </div>
 
-        <div id="line">
+       
 
-        </div>
+
+
+     
+       
     </body>
 
 
